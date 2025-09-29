@@ -1,0 +1,49 @@
+{
+  "name": "ai-amount-detection",
+  "version": "1.0.0",
+  "description": "AI-powered amount detection service for medical documents with OCR, numeric normalization, and context classification",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/ tests/",
+    "lint:fix": "eslint src/ tests/ --fix",
+    "serve": "npm start"
+  },
+  "keywords": [
+    "ocr",
+    "ai",
+    "medical-documents",
+    "amount-detection",
+    "text-processing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "jimp": "^0.22.12",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.4",
+    "natural": "^6.12.0",
+    "tesseract.js": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "eslint": "^8.49.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
