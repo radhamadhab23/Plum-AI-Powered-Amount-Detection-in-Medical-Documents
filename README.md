@@ -285,4 +285,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-For support, please open an issue in the GitHub repository or contact the development team.
+For support or questions:
+
+| Channel | Details                                                     |
+| ------- | ----------------------------------------------------------- |
+| Issues  | Open a GitHub issue (preferred for bugs & feature requests) |
+| Email   | radhamadhabpattnaik23@gmail.com (project owner)             |
+
+Please avoid sharing sensitive data (PHI/payment info) in issues or email. Provide redacted samples when reporting OCR or classification problems.
